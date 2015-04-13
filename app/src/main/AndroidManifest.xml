@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.garyplane.buildinginfofinalv" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BuildingMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AbbeyWindow"
+            android:label="@string/title_activity_abbey_window" >
+        </activity>
+        <activity
+            android:name=".BishopsWindow"
+            android:label="@string/title_activity_bishops_window" >
+        </activity>
+        <activity
+            android:name=".CathedralWindow"
+            android:label="@string/title_activity_cathedral_window" >
+        </activity>
+        <activity
+            android:name=".DeansWindow"
+            android:label="@string/title_activity_deans_window" >
+        </activity>
+        <activity
+            android:name=".GibneyWindow"
+            android:label="@string/title_activity_gibney_window" >
+        </activity>
+        <activity
+            android:name=".KnightsWindow"
+            android:label="@string/title_activity_knights_window" >
+        </activity>
+        <activity
+            android:name=".MonksWindow"
+            android:label="@string/title_activity_monks_window" >
+        </activity>
+        <activity
+            android:name=".SessionsWindow"
+            android:label="@string/title_activity_sessions_window" >
+        </activity>
+        <activity
+            android:name=".TempleWindow"
+            android:label="@string/title_activity_temple_window" >
+        </activity>
+    </application>
+
+</manifest>

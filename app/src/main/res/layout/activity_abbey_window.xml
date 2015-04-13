@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    //Above scroll view is applied for the whole screen view. The comments in this class activity
+    //apply to all other classes except BuildingMainActivity.
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        //A liner layout is applied to the scroll view.
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height= "50dp"
+            android:text="@string/abbey_text"
+            android:id = "@+id/abbeyTextTitle"
+            android:layout_gravity = "right"
+            android:layout_marginRight = "20dp"
+            android:layout_marginTop = "15dp"
+            android:textSize="28dp"
+            android:textColor="#ff020202"
+            ></TextView>
+
+        //Text view above to store title. Titles, layout location of page and text size/colour.
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height= "match_parent"
+            android:text="@string/abbey_room_info"
+            android:id = "@+id/abbeyTextInfo"
+            android:layout_gravity = "right"
+            android:layout_marginLeft = "20dp"
+            android:layout_marginRight = "20dp"
+            android:layout_marginTop = "15dp"
+            android:textSize="18dp"
+            android:textColor="#ff020202"
+            ></TextView>
+
+        //Second text view contains a string file containing the information for this building.
+
+    </LinearLayout>
+
+</ScrollView>
